@@ -1,4 +1,4 @@
-package com.quanxiaoha.weblog.web.model.vo.categery;
+package com.quanxiaoha.weblog.admin.model.vo.category;
 
 import io.swagger.annotations.ApiModel;
 import lombok.AllArgsConstructor;

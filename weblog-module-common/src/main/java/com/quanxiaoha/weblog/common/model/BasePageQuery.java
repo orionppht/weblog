@@ -1,0 +1,21 @@
+package com.quanxiaoha.weblog.common.model;
+
+import lombok.Data;
+
+/**
+ * @classname: BasePageQuery
+ * @Description: TODO
+ * @CreateTime: 2025-07-16 10:15
+ * @Author: pht
+ */
+@Data
+public class BasePageQuery {
+    /**
+     * 当前页码, 默认第一页
+     */
+    private Long current = 1L;
+    /**
+     * 每页展示的数据数量，默认每页展示 10 条数据
+     */
+    private Long size = 10L;
+}
