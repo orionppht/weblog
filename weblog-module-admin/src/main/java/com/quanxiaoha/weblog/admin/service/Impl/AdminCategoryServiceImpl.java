@@ -110,7 +110,7 @@ public class AdminCategoryServiceImpl implements IAdminCategoryService {
         // DO 转 VO
         List<FindCategoryPageListRspVO> vos = null;
         if(!CollectionUtils.isEmpty(categoryDOS)){
-            vos = categoryDOS.stream().map(p -> FindCategoryPageListRspVO.builder()
+            vos = categoryDOS.stream().map  (p -> FindCategoryPageListRspVO.builder()
                     .id(p.getId())
                     .name(p.getName())
                     .createTime(p.getCreateTime())

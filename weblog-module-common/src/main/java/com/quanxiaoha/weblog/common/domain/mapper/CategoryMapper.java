@@ -12,7 +12,7 @@ import com.quanxiaoha.weblog.common.domain.dos.CategoryDO;
 
 public interface CategoryMapper extends BaseMapper<CategoryDO> {
     /**
-     * 根据用户名查询
+     * 根据分类名查询
      * @param categoryName
      * @return
      */
